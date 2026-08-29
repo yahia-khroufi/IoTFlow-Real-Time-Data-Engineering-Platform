@@ -1,0 +1,5 @@
+cassandra-driver
+python-dotenv
+psutil
+requests
+confluent-kafka

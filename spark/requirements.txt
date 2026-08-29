@@ -1,0 +1,4 @@
+pyspark
+cassandra-driver
+python-dotenv
+confluent-kafka

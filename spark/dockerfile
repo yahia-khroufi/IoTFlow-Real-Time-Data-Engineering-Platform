@@ -1,0 +1,10 @@
+FROM apache/spark:4.1.3-scala2.13-java17-python3-r-ubuntu
+
+WORKDIR /app
+
+COPY ./spark/requirements.txt .
+RUN pip install --no-cache-dir --default-timeout=600 -r requirements.txt
+COPY spark/src ./src
+COPY spark/config ./config
+
+ENV PYTHONPATH=/app
