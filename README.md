@@ -2,22 +2,6 @@
 
 IoTFlow is a real-time data engineering platform designed to collect, process, validate, store, and visualize IoT metrics.
 
-## Architecture
-
-```text
-Edge Agent
-    ↓
-Apache NiFi
-    ↓
-Apache Kafka
-    ↓
-Apache Spark
-    ↓
-Apache Cassandra
-    ↓
-Streamlit
-```
-
 ## Architecture Diagram
 
 ![IoTFlow Architecture](Docs/IOTFlow-structurs.png)
